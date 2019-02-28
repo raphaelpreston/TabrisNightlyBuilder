@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.nightlybuilder.tabris" version="0.1.0">
+  <name>Nightly Builder</name>
+  <description>
+    Rebuild this app to get the latest nightly version.
+  </description>
+<preference name="EnableDeveloperConsole" value="true" />
+
+<!-- Allow to access HTTP instead of just HTTPS -->
+<access origin="*"></access>
+
+</widget>
